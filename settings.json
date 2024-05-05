@@ -1,0 +1,26 @@
+{
+	"viaIR": true,
+	"optimizer": {
+		"enabled": true,
+		"runs": 200,
+		"details": {
+			"yulDetails": {
+				"optimizerSteps": "u"
+			}
+		}
+	},
+	"evmVersion": "paris",
+	"outputSelection": {
+		"*": {
+			"*": [
+				"evm.bytecode",
+				"evm.deployedBytecode",
+				"devdoc",
+				"userdoc",
+				"metadata",
+				"abi"
+			]
+		}
+	},
+	"libraries": {}
+}
